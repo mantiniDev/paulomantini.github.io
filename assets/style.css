@@ -10,7 +10,9 @@ body{
     color: rgb(2, 117, 216);
  }
   .img-fluid{
-    position:static;   
+    position:static;
+    width: 500px;
+    height: 600px;   
   }
   
   .social-icons {
