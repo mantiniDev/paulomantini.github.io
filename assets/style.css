@@ -18,6 +18,15 @@ header {
 
 h1 {
   margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Roboto', regular;
+  color: #1d2d62;
+  text-align: justify;
+}
+
+h2 {
+  margin: 0;
   font-size: 48px;
   font-weight: bold;
   font-family: 'Orbitron', regular;
@@ -25,6 +34,18 @@ h1 {
   text-align: center;
 }
 
+h3 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: bold;
+  font-family: 'Orbitron', regular;
+  color: #9b0004;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #1d2d62;
+}
 p {
   margin: 20px 0;
   font-family: 'roboto', sans-serif;
@@ -63,15 +84,29 @@ footer {
 
 footer p {
   margin: 0;
-  color: #041726;
+  color: #9b0004;
 }
 
 footer a {
-  color: #041726;
+  color: #9b0004;
   text-decoration: none;
   font-family: 'Orbitron', sans-serif;
 }
 
 div {
   text-align: center;
+}
+
+.social-icons {
+  display: list-item;
+  justify-content: space-around;
+  margin: 50px;
+
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #9b0004;
+  font-size: 50px;
+  padding: 15px;
 }
